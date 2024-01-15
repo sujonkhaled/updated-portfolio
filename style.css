@@ -1,0 +1,103 @@
+* {
+	box-sizing: border-box;
+	font-family: Arial, sans-serif;
+}
+
+.profile-picture {
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	object-fit: cover;
+	margin-right: 20px;
+}
+header {
+	background-color: #a51352;
+	color: white;
+	padding: 20px;
+	text-align: center;
+}
+
+h1 {
+	margin: 0;
+}
+
+main {
+	margin: 20px;
+}
+
+section {
+	margin-bottom: 20px;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+li {
+	margin-bottom: 5px;
+}
+
+ /* Footer Styling */
+footer {
+    background-color:  #290917;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+footer a:hover {
+    color: #ffc107; /* Change to your desired hover color */
+}
+
+/* Right Reserved Styling */
+.right-reserved {
+    margin-top: 10px;
+    color: #777; /* Change to your desired color */
+}
+
+
+@media (min-width: 600px) {
+	main {
+		display: flex;
+		flex-wrap: wrap;
+	}
+
+	section {
+		flex-basis: 50%;
+		padding-right: 20px;
+	}
+}
+
+.navigation {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.navigation li {
+	margin-right: 20px;
+}
+
+.navigation a {
+	text-decoration: none;
+	color: #eae0e0;
+	font-size: 16px;
+	transition: color 0.2s;
+}
+
+.navigation a:hover {
+	color: #253fe8;
+}
+
+
